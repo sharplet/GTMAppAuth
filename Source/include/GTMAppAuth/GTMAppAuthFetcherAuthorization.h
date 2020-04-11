@@ -22,8 +22,8 @@
 #import "GTMSessionFetcher.h"
 #endif // GTMAPPAUTH_USER_IMPORTS
 
-@class OIDAuthState;
-@class OIDServiceConfiguration;
+#import <AppAuth/OIDAuthState.h>
+#import <AppAuth/OIDServiceConfiguration.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
