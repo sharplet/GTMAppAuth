@@ -16,6 +16,8 @@
         limitations under the License.
  */
 
+#import <TargetConditionals.h>
+#if TARGET_OS_MAC
 #import "GTMKeychain.h"
 
 #import <Security/Security.h>
@@ -180,3 +182,4 @@ static const char *kKeychainAccountName = "OAuth";
 }
 
 @end
+#endif

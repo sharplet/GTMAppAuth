@@ -16,6 +16,8 @@
         limitations under the License.
  */
 
+#import <TargetConditionals.h>
+#if TARGET_OS_IOS
 #import "GTMKeychain.h"
 
 #import <Security/Security.h>
@@ -285,3 +287,4 @@ static GTMAppAuthGTMOAuth2Keychain* gGTMAppAuthFetcherAuthorizationGTMOAuth2Defa
 }
 
 @end
+#endif
