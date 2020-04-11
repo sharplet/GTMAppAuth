@@ -16,6 +16,8 @@
         limitations under the License.
  */
 
+#import <AppAuth/AppAuth.h>
+
 #import "GTMAppAuthFetcherAuthorization.h"
 #import "GTMAppAuthFetcherAuthorization+Keychain.h"
 
